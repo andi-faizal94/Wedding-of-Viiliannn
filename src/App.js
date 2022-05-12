@@ -10,11 +10,19 @@ function App() {
 
       <iframe
         className="w-full min-h-screen p-2 aspect-square rounded-md"
-        src="https://www.youtube.com/embed/DYlDtDjGEI8"
+        src="https://www.youtube.com/embed/_XI5YgUaCE8"
         frameBorder="0"
         allow="autoplay; encrypted-media"
         allowFullScreen
         title="video"
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
       ></iframe>
     </div>
   );
