@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App aspect-w-16 aspect-h-9">
+      <h3 className="text-center">Wedding Ervi</h3>
+      <iframe
+        className="w-full min-h-screen aspect-square rounded-md"
+        src="https://www.youtube.com/embed/DYlDtDjGEI8"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="video"
+      ></iframe>
     </div>
   );
 }
