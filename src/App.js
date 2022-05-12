@@ -16,6 +16,16 @@ function App() {
         allowFullScreen
         title="video"
       ></iframe>
+
+      <footer className="text-white font-lato text-center p-4 cursor-pointer">
+        Made by
+        <a
+          className="text-md ml-1 font-lato"
+          href="https://andi-3ujiqdvp9-andi-faizal94.vercel.app/"
+        >
+          Andi
+        </a>
+      </footer>
     </div>
   );
 }
