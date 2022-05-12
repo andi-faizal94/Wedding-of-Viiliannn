@@ -9,7 +9,7 @@ function App() {
       </h1>
 
       <iframe
-        className="w-full min-h-screen p-2 aspect-square rounded-md"
+        className="w-full min-h-screen aspect-square md:aspect-video xl:aspect-auto rounded-xl"
         src="https://www.youtube.com/embed/_XI5YgUaCE8"
         frameBorder="0"
         allow="autoplay; encrypted-media"
