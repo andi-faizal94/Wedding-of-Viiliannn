@@ -35,7 +35,7 @@ function App() {
     );
 
   return (
-    <div className="App bg-[#0a192f]" data-aos="fade-down">
+    <div className="App bg-[#0a192f]">
       <h1
         className="p-4 text-3xl text-center font-lato font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-100 to-red-900 mb-4"
         data-aos="fade-down"
